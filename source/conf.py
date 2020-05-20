@@ -158,7 +158,7 @@ html_copy_source = False
 # default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
 # 'searchbox.html']``.
 #
-html_sidebars = {"**": ["globaltoc.html", "searchbox.html", "localtoc.html"]}
+html_sidebars = {"**": []}
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
