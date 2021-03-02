@@ -9,10 +9,6 @@ html {
     min-height: 100%;
 }
 
-body {
-    background: linear-gradient(to bottom, #a7cfdf 0%,#23538a 100%);
-}
-
 div#fmain {
     color: #222;
     padding: 10px 40px 10px;
@@ -434,4 +430,8 @@ kbd {
     th, dl.field-list > dt {
         background-color: #121;
     }
+}
+
+a.headerlink {
+    display: none !important;
 }
