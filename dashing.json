@@ -1,0 +1,29 @@
+{
+  "ExternalURL": "https://fishshell.com/docs/3.2",
+  "allowJS": false,
+  "icon32x32": "icon.png",
+  "index": "html/index.html",
+  "name": "fish",
+  "package": "fish",
+  "selectors": {
+    "div.section h2": {
+      "regexp": "¶",
+      "replacement": "",
+      "type": "Section"
+    },
+    "title": [
+      {
+        "matchpath": "^html/\\w*\\.html$",
+        "regexp": " — fish-shell \\d\\.\\d\\.\\d documentation$",
+        "replacement": "",
+        "type": "Guide"
+      },
+      {
+        "matchpath": "^html/cmds/.*\\.html$",
+        "regexp": " — fish-shell \\d\\.\\d\\.\\d documentation$",
+        "replacement": "",
+        "type": "Command"
+      }
+    ]
+  }
+}
